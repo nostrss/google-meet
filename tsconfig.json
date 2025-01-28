@@ -11,5 +11,7 @@
       "path": "./tsconfig.vitest.json"
     }
   ],
-  "moduleResolution": "bundler"
+  "compilerOptions": {
+    "moduleResolution": "bundler"
+  }
 }

@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref, onMounted } from "vue";
-import { meet, MeetSidePanelClient } from "@googleworkspace/meet-addons/meet.addons";
+import { meet, type MeetSidePanelClient } from "@googleworkspace/meet-addons/meet.addons";
 
 // 상태 변수로 SidePanelClient을 관리합니다.
 const sidePanelClient = ref<MeetSidePanelClient | null>(null);
